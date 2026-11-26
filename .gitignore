@@ -1,0 +1,36 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build & Packaged Portable Output
+dist/
+build/pyinstaller_work/
+ArtDirector_PenDrive/
+*.log
+
+# Personal Stage Configuration, Voice Samples & Downloaded Offline Models
+config.json
+config.backup*.json
+campioni/
+configurazioni/
+models/
+*.wav
+!assets/*.wav
+
+# Local Authoring Folder (published assets live in docs/images/)
+Manuale ArtDirector/
+
+# OS & Editor Junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
